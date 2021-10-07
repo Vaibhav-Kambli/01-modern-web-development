@@ -1,0 +1,15 @@
+{
+  "name": "03-dependencies",
+  "version": "1.0.0",
+  "description": "* Create a `package.json` file in this folder   * `npm init -y` * Add `\"type\": \"module\"` to the `package.json` file   * This will allow us to use `import` and `export` * Install the `date-fns` library * Create a file called `index.js`   * Import at least 3 functions from the `date-fns` library     * See the `date-fns` [website](https://date-fns.org/) for more information   * Use / call those 3 functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.25.0"
+  }
+}
